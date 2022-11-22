@@ -1,0 +1,35 @@
+//navigation header
+.icon-burger{
+    position: absolute;
+    left: 82%;
+ }
+ .icon-burger a{
+     position: relative;
+     left: 85%;
+     bottom: 2.5rem;
+     color: $color-principal-elements;
+     font-size: 2rem;
+ }
+
+.l-main-nav{
+    display: none;
+ }
+
+.l-main-nav.is-active{
+    display: block;
+}
+
+.l-main-nav li{
+    margin: 1rem;
+}
+
+.l-main-nav a{
+    text-transform: uppercase;
+    color: $color-header-nav-primary; 
+}
+
+.l-main-nav a:hover{
+    color: $color-header-nav-second ;
+}
+/****************************************************/
+//faire animation sur le menu a l'ouverture

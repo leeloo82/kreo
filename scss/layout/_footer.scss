@@ -1,0 +1,53 @@
+.l-main-footer{
+    background: $color-background-footer;
+    padding-bottom: 1rem;
+}
+
+.l-main-footer .l-specify-link {
+    display: block;
+    width: 12rem;
+    height: 3rem;
+    background: $color-specify-link-background ;
+    margin: 0rem auto;
+    text-align: center;
+
+    position: relative;
+    bottom: 1.5rem;
+   
+} 
+.l-footer-social-network-incon{
+    text-align: center;
+}
+.l-footer-social-network-incon a{
+    color: $icon-color-footer;
+    margin: 1rem 1rem 2rem 0;
+    font-size: 1.5rem;
+  
+}
+
+.Company-Name{
+    text-align: center;
+    font-size: 2rem;
+    color: $icon-color-footer;
+    text-transform: uppercase;
+    
+}
+.l-footer-social-network h2{
+    font-weight: bold;
+}
+.l-footer-social-network p{
+    text-align: center;
+    margin: 2rem;
+}
+.l-footer-copyright .Company-Name{
+    font-size: 1rem;
+}
+.l-footer-copyright{
+    margin: 4rem 4rem 0 4rem;
+}
+.l-footer-copyright-specific-style{
+    color: $color-footer-specific-style;
+    // font-size: 1rem;
+    // font-weight: none;
+    
+}

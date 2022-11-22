@@ -1,0 +1,38 @@
+html {
+	font-size: 14px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: $background-color-principal ;
+}
+
+h1{
+ color: $color-title-primary;
+ margin: 0;
+}
+
+p{
+	color: $color-title-second;
+}
+
+
+img{
+	 width: 100%;
+	 height: auto;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+

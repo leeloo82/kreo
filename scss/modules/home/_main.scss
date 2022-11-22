@@ -1,0 +1,228 @@
+
+
+
+.m-point{
+    color: $color-principal-elements;
+}
+.m-main-title-h1,.m-main-title-principal{
+    padding: 35% 0 0 0;
+    text-transform: capitalize;
+    
+}
+
+.m-main-title-h1::after,.m-main-title-principal::after{
+    display: block;
+    content: "";
+    border-bottom: 2px solid $color-line-h1;
+    width: 45%;
+    // height: 0.5rem;
+    // background: $color-line-h1 ;
+    margin: 2rem auto;
+}
+.m-main-paragraph{
+    text-align: center;
+    margin: 1rem 1rem 3rem 1rem;
+}
+
+.m-main-title-h2{
+    text-align: left;
+    margin: 2rem 1rem;
+    color: $color-principal-elements;
+    text-transform: capitalize;
+}
+
+.m-main-title-principal{
+    color: $color-title-primary;
+    text-transform: uppercase;
+}
+
+.m-main-title-h3{
+    color: $color-title-primary ;
+    margin: 1rem;
+    text-transform: capitalize;
+}
+
+.m-main-picture-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.m-main-picture-wrap div {
+    display: flex;
+}
+
+
+.m-main-paragraph-service,.m-main-paragraph-about{
+    text-align: left;
+    padding: 0 1rem;
+}
+
+//section main-team presentation
+.m-main-picture-team-wrap{
+    
+    display: flex;
+    flex-direction:column;
+}
+// .container-profil{
+//     margin: 1rem;
+// }
+
+ .m-profil-wrap{
+    
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 1rem;
+}
+
+.m-profil{
+    width: 90%;
+}
+.m-profil h2{
+    width: 130px ;
+    font-size: 1.2rem;
+    margin: 4rem 1rem 0 1rem;
+}
+
+.m-profil h3{
+    width: 130px ;
+    text-align: left;
+    // margin: 0 1rem 0 0;
+}
+
+.m-profil-infos-wrap{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 1rem 0 1rem;
+}
+.m-profil-social-network a{
+    color: $icon-color;
+    margin: 0 0.5rem 2rem 0;
+    font-size: 1rem;
+}
+.m-main-contact{
+    padding: 0 0 10rem 0;
+
+}
+//section main legende-of-ceo
+.m-legende-of-ceo{
+    background: $color-background-main-section-legendeCeo;
+ 
+}
+.m-form-wrap h2{
+    text-align: left;
+    margin: 2rem 1.3rem;
+    color: #fdc401;
+    text-transform: capitalize;
+}
+.m-legende-of-ceo p{
+    color:$color-paragraph;
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 2rem 2rem 1rem 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.m-legende-of-ceo p::first-letter{
+    text-transform: uppercase;
+}
+
+.m-legende-of-ceo .m-picture-ceo-wrap h2{
+    text-transform: uppercase;
+    color: $color-title-primary;
+    margin: .5rem 0 0 0;
+
+    
+}
+// .m-picture-ceo-wrap{
+   
+// }
+ .m-legende-of-ceo .m-picture-ceo-wrap h3{
+    text-transform: capitalize;
+    margin-top: 0;
+    
+}
+ .m-picture-ceo-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.m-profil-ceo{
+    margin: 0 1rem;
+    text-align: left;
+
+}
+
+.m-legende-of-ceo .m-picture-ceo-wrap .m-picture-ceo{
+    background: $color-picture-profil-ceo;
+  
+    width: 3rem;
+    height:3rem;
+    border-radius: 100%;
+    padding: 0.5rem;
+    // margin: 3rem;
+}
+.m-legende-of-ceo .m-picture-ceo-wrap .m-picture-ceo img{
+    
+    border-radius: 50%;
+}
+
+.button-nav-ceo{
+    // text-align: center;
+    position: relative;
+    bottom:2rem;
+}
+.button-nav-ceo span{
+    margin: 0 .2rem 0 .2rem;
+}
+.button-nav-ceo .button-ceo{
+    display:inline-block;
+     width: 1rem;
+     height: 1rem;
+     border-radius: 50%;
+     background-color: $icon-color ;
+}
+.button-nav-ceo .button-ceo:hover{
+    background-color:$color-button-ceo-hover ;
+ 
+}
+/*section formulaire contact*/
+.m-form-wrap{
+    display: flex;
+    flex-direction: column;
+    
+}
+.m-form-wrap input,.m-form-wrap textarea{
+    background: $color-background-footer-section-formulaire-input;
+    margin: 1rem 0 ;
+    padding: 1rem;
+    border: none;
+    width: 18rem;
+    text-transform: capitalize;
+}
+
+.m-form-wrap input::placeholder, .m-form-wrap textarea::placeholder{
+    color:rgb(27, 30, 37);
+    font-size: 1.2rem;
+    
+}
+
+
+.m-form-wrap .submit input{
+    background: $color-principal-elements ;
+    font-weight: bold;
+    color: $color-footer-section-formulaire-textSubmit;
+    text-transform: uppercase;
+    width: 20rem;
+    margin-left: 0;
+}
+.m-main-section-form-wrap{
+    display: flex;
+    flex-direction: column;
+}
+.m-main-section-form-p{
+    text-align: left;
+    margin: 1.4rem;
+}

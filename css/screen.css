@@ -1,0 +1,671 @@
+/* copyright mon magnifique CSS */
+/* line 1, scss/base/_base.scss */
+html {
+  font-size: 14px; }
+
+/* line 5, scss/base/_base.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background: black; }
+
+/* line 11, scss/base/_base.scss */
+h1 {
+  color: white;
+  margin: 0; }
+
+/* line 16, scss/base/_base.scss */
+p {
+  color: #505052; }
+
+/* line 21, scss/base/_base.scss */
+img {
+  width: 100%;
+  height: auto; }
+
+/* line 26, scss/base/_base.scss */
+ul {
+  margin: 0;
+  padding: 0; }
+
+/* line 31, scss/base/_base.scss */
+li {
+  list-style: none; }
+
+/* line 35, scss/base/_base.scss */
+a {
+  text-decoration: none; }
+
+/* line 19, scss/layout/_layout.scss */
+.l-specify-link a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  top: 1rem;
+  padding: 0 0.5rem; }
+
+/* line 28, scss/layout/_layout.scss */
+.l-main {
+  background: #111417;
+  text-align: center;
+  margin: -1.54rem 0 -1.1rem 0; }
+
+/* line 1, scss/layout/_header.scss */
+.l-header-main {
+  position: relative; }
+
+/* line 6, scss/layout/_header.scss */
+.logo-container {
+  background-color: #fdc401;
+  width: 10rem;
+  height: 3rem; }
+
+/* line 12, scss/layout/_header.scss */
+.logo-container img {
+  width: 7rem;
+  height: 2rem;
+  margin: 0.5rem 1.5rem; }
+
+/* line 17, scss/layout/_header.scss */
+.l-header-main-social-network a {
+  display: none; }
+
+/* line 30, scss/layout/_header.scss */
+.l-header-main-picture-background img {
+  height: 450px; }
+
+/* line 35, scss/layout/_header.scss */
+.l-header-main .groupe-title {
+  position: absolute;
+  bottom: 40%;
+  left: 1%;
+  text-align: center;
+  width: 100%; }
+
+/* line 42, scss/layout/_header.scss */
+.l-header-main .groupe-title-tablette {
+  display: none; }
+
+/* line 47, scss/layout/_header.scss */
+.l-header-main .groupe-title h1::first-letter {
+  text-transform: uppercase; }
+
+/* line 52, scss/layout/_header.scss */
+.l-header-main .groupe-title .first-title .first-title-design::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 0.1rem;
+  background: #505052;
+  margin: 0 auto; }
+
+/* line 64, scss/layout/_header.scss */
+.l-header-main .groupe-title .second-title::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 0.1rem;
+  background: #505052;
+  margin: 0 auto; }
+
+/* line 75, scss/layout/_header.scss */
+.l-header-main .groupe-title .third-title-design::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 0.3rem;
+  background: #fdc401;
+  margin: 0 auto; }
+
+/* line 87, scss/layout/_header.scss */
+.l-header-main .l-header-paragraph {
+  text-align: center;
+  margin: 0 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #b3b4b4;
+  position: absolute;
+  bottom: 25%; }
+
+/* line 98, scss/layout/_header.scss */
+.button-nav-img {
+  text-align: center; }
+
+/* line 101, scss/layout/_header.scss */
+.button-nav-img {
+  position: relative;
+  bottom: 5rem;
+  margin: 0 0.2rem; }
+
+/* line 106, scss/layout/_header.scss */
+.button-nav-img .button {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 .2rem; }
+
+/* line 117, scss/layout/_header.scss */
+.button-nav-img .button:hover {
+  background: #fdc401; }
+
+/* line 121, scss/layout/_header.scss */
+.l-header-main .l-specify-link {
+  display: block;
+  width: 12rem;
+  height: 3rem;
+  background: #e64e03;
+  text-align: center;
+  position: absolute;
+  left: 25%;
+  bottom: 0.7%; }
+
+/* line 2, scss/layout/_nav.scss */
+.icon-burger {
+  position: absolute;
+  left: 82%; }
+
+/* line 6, scss/layout/_nav.scss */
+.icon-burger a {
+  position: relative;
+  left: 85%;
+  bottom: 2.5rem;
+  color: #fdc401;
+  font-size: 2rem; }
+
+/* line 14, scss/layout/_nav.scss */
+.l-main-nav {
+  display: none; }
+
+/* line 18, scss/layout/_nav.scss */
+.l-main-nav.is-active {
+  display: block; }
+
+/* line 22, scss/layout/_nav.scss */
+.l-main-nav li {
+  margin: 1rem; }
+
+/* line 26, scss/layout/_nav.scss */
+.l-main-nav a {
+  text-transform: uppercase;
+  color: white; }
+
+/* line 31, scss/layout/_nav.scss */
+.l-main-nav a:hover {
+  color: #fdc401; }
+
+/****************************************************/
+/* line 1, scss/layout/_footer.scss */
+.l-main-footer {
+  background: #0e1215;
+  padding-bottom: 1rem; }
+
+/* line 6, scss/layout/_footer.scss */
+.l-main-footer .l-specify-link {
+  display: block;
+  width: 12rem;
+  height: 3rem;
+  background: #e64e03;
+  margin: 0rem auto;
+  text-align: center;
+  position: relative;
+  bottom: 1.5rem; }
+
+/* line 18, scss/layout/_footer.scss */
+.l-footer-social-network-incon {
+  text-align: center; }
+
+/* line 21, scss/layout/_footer.scss */
+.l-footer-social-network-incon a {
+  color: #262a2d;
+  margin: 1rem 1rem 2rem 0;
+  font-size: 1.5rem; }
+
+/* line 28, scss/layout/_footer.scss */
+.Company-Name {
+  text-align: center;
+  font-size: 2rem;
+  color: #262a2d;
+  text-transform: uppercase; }
+
+/* line 35, scss/layout/_footer.scss */
+.l-footer-social-network h2 {
+  font-weight: bold; }
+
+/* line 38, scss/layout/_footer.scss */
+.l-footer-social-network p {
+  text-align: center;
+  margin: 2rem; }
+
+/* line 42, scss/layout/_footer.scss */
+.l-footer-copyright .Company-Name {
+  font-size: 1rem; }
+
+/* line 45, scss/layout/_footer.scss */
+.l-footer-copyright {
+  margin: 4rem 4rem 0 4rem; }
+
+/* line 48, scss/layout/_footer.scss */
+.l-footer-copyright-specific-style {
+  color: white; }
+
+/* line 4, scss/modules/home/_main.scss */
+.m-point {
+  color: #fdc401; }
+
+/* line 7, scss/modules/home/_main.scss */
+.m-main-title-h1, .m-main-title-principal {
+  padding: 35% 0 0 0;
+  text-transform: capitalize; }
+
+/* line 13, scss/modules/home/_main.scss */
+.m-main-title-h1::after, .m-main-title-principal::after {
+  display: block;
+  content: "";
+  border-bottom: 2px solid #283436;
+  width: 45%;
+  margin: 2rem auto; }
+
+/* line 22, scss/modules/home/_main.scss */
+.m-main-paragraph {
+  text-align: center;
+  margin: 1rem 1rem 3rem 1rem; }
+
+/* line 27, scss/modules/home/_main.scss */
+.m-main-title-h2 {
+  text-align: left;
+  margin: 2rem 1rem;
+  color: #fdc401;
+  text-transform: capitalize; }
+
+/* line 34, scss/modules/home/_main.scss */
+.m-main-title-principal {
+  color: white;
+  text-transform: uppercase; }
+
+/* line 39, scss/modules/home/_main.scss */
+.m-main-title-h3 {
+  color: white;
+  margin: 1rem;
+  text-transform: capitalize; }
+
+/* line 45, scss/modules/home/_main.scss */
+.m-main-picture-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+/* line 50, scss/modules/home/_main.scss */
+.m-main-picture-wrap div {
+  display: flex; }
+
+/* line 55, scss/modules/home/_main.scss */
+.m-main-paragraph-service, .m-main-paragraph-about {
+  text-align: left;
+  padding: 0 1rem; }
+
+/* line 61, scss/modules/home/_main.scss */
+.m-main-picture-team-wrap {
+  display: flex;
+  flex-direction: column; }
+
+/* line 70, scss/modules/home/_main.scss */
+.m-profil-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: 0 1rem; }
+
+/* line 78, scss/modules/home/_main.scss */
+.m-profil {
+  width: 90%; }
+
+/* line 81, scss/modules/home/_main.scss */
+.m-profil h2 {
+  width: 130px;
+  font-size: 1.2rem;
+  margin: 4rem 1rem 0 1rem; }
+
+/* line 87, scss/modules/home/_main.scss */
+.m-profil h3 {
+  width: 130px;
+  text-align: left; }
+
+/* line 93, scss/modules/home/_main.scss */
+.m-profil-infos-wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 0 1rem 0 1rem; }
+
+/* line 99, scss/modules/home/_main.scss */
+.m-profil-social-network a {
+  color: white;
+  margin: 0 0.5rem 2rem 0;
+  font-size: 1rem; }
+
+/* line 104, scss/modules/home/_main.scss */
+.m-main-contact {
+  padding: 0 0 10rem 0; }
+
+/* line 109, scss/modules/home/_main.scss */
+.m-legende-of-ceo {
+  background: #e4b100; }
+
+/* line 113, scss/modules/home/_main.scss */
+.m-form-wrap h2 {
+  text-align: left;
+  margin: 2rem 1.3rem;
+  color: #fdc401;
+  text-transform: capitalize; }
+
+/* line 119, scss/modules/home/_main.scss */
+.m-legende-of-ceo p {
+  color: white;
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 2rem 2rem 1rem 2rem;
+  font-size: 1.5rem;
+  text-align: center; }
+
+/* line 127, scss/modules/home/_main.scss */
+.m-legende-of-ceo p::first-letter {
+  text-transform: uppercase; }
+
+/* line 131, scss/modules/home/_main.scss */
+.m-legende-of-ceo .m-picture-ceo-wrap h2 {
+  text-transform: uppercase;
+  color: white;
+  margin: .5rem 0 0 0; }
+
+/* line 141, scss/modules/home/_main.scss */
+.m-legende-of-ceo .m-picture-ceo-wrap h3 {
+  text-transform: capitalize;
+  margin-top: 0; }
+
+/* line 146, scss/modules/home/_main.scss */
+.m-picture-ceo-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 2rem; }
+
+/* line 152, scss/modules/home/_main.scss */
+.m-profil-ceo {
+  margin: 0 1rem;
+  text-align: left; }
+
+/* line 158, scss/modules/home/_main.scss */
+.m-legende-of-ceo .m-picture-ceo-wrap .m-picture-ceo {
+  background: white;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100%;
+  padding: 0.5rem; }
+
+/* line 167, scss/modules/home/_main.scss */
+.m-legende-of-ceo .m-picture-ceo-wrap .m-picture-ceo img {
+  border-radius: 50%; }
+
+/* line 172, scss/modules/home/_main.scss */
+.button-nav-ceo {
+  position: relative;
+  bottom: 2rem; }
+
+/* line 177, scss/modules/home/_main.scss */
+.button-nav-ceo span {
+  margin: 0 .2rem 0 .2rem; }
+
+/* line 180, scss/modules/home/_main.scss */
+.button-nav-ceo .button-ceo {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: white; }
+
+/* line 187, scss/modules/home/_main.scss */
+.button-nav-ceo .button-ceo:hover {
+  background-color: black; }
+
+/*section formulaire contact*/
+/* line 192, scss/modules/home/_main.scss */
+.m-form-wrap {
+  display: flex;
+  flex-direction: column; }
+
+/* line 197, scss/modules/home/_main.scss */
+.m-form-wrap input, .m-form-wrap textarea {
+  background: #2a2d32;
+  margin: 1rem 0;
+  padding: 1rem;
+  border: none;
+  width: 18rem;
+  text-transform: capitalize; }
+
+/* line 206, scss/modules/home/_main.scss */
+.m-form-wrap input::placeholder, .m-form-wrap textarea::placeholder {
+  color: #1b1e25;
+  font-size: 1.2rem; }
+
+/* line 213, scss/modules/home/_main.scss */
+.m-form-wrap .submit input {
+  background: #fdc401;
+  font-weight: bold;
+  color: black;
+  text-transform: uppercase;
+  width: 20rem;
+  margin-left: 0; }
+
+/* line 221, scss/modules/home/_main.scss */
+.m-main-section-form-wrap {
+  display: flex;
+  flex-direction: column; }
+
+/* line 225, scss/modules/home/_main.scss */
+.m-main-section-form-p {
+  text-align: left;
+  margin: 1.4rem; }
+
+@media screen and (min-width: 720px) {
+  /* line 6, scss/mediaqueries/tablette/_720.scss */
+  .icon-burger {
+    display: none; }
+  /* line 9, scss/mediaqueries/tablette/_720.scss */
+  .l-main-nav ul {
+    position: absolute;
+    top: 2rem; }
+  /* line 14, scss/mediaqueries/tablette/_720.scss */
+  .l-main-nav {
+    display: block; }
+  /* line 17, scss/mediaqueries/tablette/_720.scss */
+  .l-main-nav li {
+    display: inline-block;
+    position: relative;
+    left: 12rem;
+    bottom: 2rem; }
+  /* line 24, scss/mediaqueries/tablette/_720.scss */
+  .l-main-nav a {
+    display: inline-block; }
+  /* line 27, scss/mediaqueries/tablette/_720.scss */
+  .l-main-nav ::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: .1rem;
+    background: #505052;
+    transition: width 0.4s; }
+  /* line 36, scss/mediaqueries/tablette/_720.scss */
+  .l-main-nav a:hover::after {
+    color: #fdc401;
+    width: 100%; }
+  /* line 40, scss/mediaqueries/tablette/_720.scss */
+  .l-header-main .groupe-title {
+    display: none; }
+  /* line 43, scss/mediaqueries/tablette/_720.scss */
+  .l-header-main .groupe-title-tablette {
+    display: block;
+    position: absolute;
+    bottom: 40%;
+    left: 1%;
+    text-align: center;
+    width: 100%; }
+  /* line 51, scss/mediaqueries/tablette/_720.scss */
+  .l-header-main .groupe-title-tablette .second-title-design::after {
+    content: "";
+    display: block;
+    width: 10%;
+    height: 0.2rem;
+    background: #fdc401;
+    margin: .5rem auto; }
+  /* line 62, scss/mediaqueries/tablette/_720.scss */
+  .l-header-main .l-header-paragraph {
+    text-align: center;
+    margin: 0 18rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #b3b4b4;
+    position: absolute;
+    bottom: 25%;
+    width: 35%; }
+  /* line 74, scss/mediaqueries/tablette/_720.scss */
+  .l-header-main .l-specify-link {
+    display: block;
+    width: 12rem;
+    height: 3rem;
+    background: #e64e03;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    bottom: 0.7%; }
+  /* line 88, scss/mediaqueries/tablette/_720.scss */
+  .l-main {
+    text-align: left; }
+  /* line 93, scss/mediaqueries/tablette/_720.scss */
+  .m-main-title-h1, .m-main-title-principal {
+    padding: 20% 0 0 0;
+    margin-left: 1rem; }
+  /* line 99, scss/mediaqueries/tablette/_720.scss */
+  .m-main-title-h1::after, .m-main-title-principal::after {
+    width: 10%;
+    margin: 2rem 0rem; }
+  /* line 104, scss/mediaqueries/tablette/_720.scss */
+  .m-main-paragraph {
+    text-align: left; }
+  /* line 108, scss/mediaqueries/tablette/_720.scss */
+  .m-main-picture-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+  /* line 113, scss/mediaqueries/tablette/_720.scss */
+  .m-main-picture-wrap div {
+    display: flex; }
+  /* line 117, scss/mediaqueries/tablette/_720.scss */
+  .m-main-service-composition-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  /* line 121, scss/mediaqueries/tablette/_720.scss */
+  .m-about-developement-warp {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  /* line 125, scss/mediaqueries/tablette/_720.scss */
+  .m-main-picture-team-wrap {
+    display: flex;
+    flex-direction: row; }
+  /* line 130, scss/mediaqueries/tablette/_720.scss */
+  .m-profil-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 1rem; }
+  /* line 137, scss/mediaqueries/tablette/_720.scss */
+  .m-profil h2 {
+    margin: .5rem 1rem 0 0; }
+  /* line 141, scss/mediaqueries/tablette/_720.scss */
+  .m-profil h3 {
+    margin: 0; }
+  /* line 145, scss/mediaqueries/tablette/_720.scss */
+  .m-legende-of-ceo p {
+    margin: 1rem 4rem 1rem 10rem;
+    width: 50%; }
+  /* line 150, scss/mediaqueries/tablette/_720.scss */
+  .button-nav-ceo {
+    position: relative;
+    bottom: 2rem;
+    left: 45%; }
+  /* line 156, scss/mediaqueries/tablette/_720.scss */
+  .m-form-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem 2rem; }
+  /* line 161, scss/mediaqueries/tablette/_720.scss */
+  .m-main-section-form-wrap p {
+    margin-bottom: 0; }
+  /* line 165, scss/mediaqueries/tablette/_720.scss */
+  .m-main-section-form-wrap h2 {
+    margin: 1rem 1.3rem; }
+  /* line 168, scss/mediaqueries/tablette/_720.scss */
+  .m-main-section-form-wrap .m-main-contact p {
+    margin: 0.2rem 1.3rem; } }
+
+@media screen and (min-width: 1024px) {
+  /* line 2, scss/mediaqueries/pc/_1024.scss */
+  .l-header-main-social-network {
+    position: absolute;
+    left: 70%; }
+  /* line 6, scss/mediaqueries/pc/_1024.scss */
+  .l-header-main-social-network a {
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    bottom: 2rem;
+    padding: 0 .5rem; }
+  /* line 16, scss/mediaqueries/pc/_1024.scss */
+  .l-header-main .groupe-title-tablette {
+    left: 2%;
+    text-align: left; }
+  /* line 23, scss/mediaqueries/pc/_1024.scss */
+  .l-header-main .groupe-title-tablette .second-title-design::after {
+    content: "";
+    display: block;
+    width: 5%;
+    height: 0.2rem;
+    background: #fdc401;
+    margin: 0; }
+  /* line 34, scss/mediaqueries/pc/_1024.scss */
+  .l-header-main .l-header-paragraph {
+    text-align: left;
+    margin: 0 1rem; }
+  /* line 39, scss/mediaqueries/pc/_1024.scss */
+  .button-nav-img {
+    text-align: left;
+    margin: 0 1rem; }
+  /* line 44, scss/mediaqueries/pc/_1024.scss */
+  .l-header-main .l-specify-link {
+    display: block;
+    width: 12rem;
+    height: 3rem;
+    background: #e64e03;
+    text-align: center;
+    position: absolute;
+    left: 70%;
+    bottom: 0.7%; }
+  /* line 58, scss/mediaqueries/pc/_1024.scss */
+  .m-main-title-h1, .m-main-title-principal {
+    margin-left: 4rem;
+    padding: 8% 0 0 0; }
+  /* line 63, scss/mediaqueries/pc/_1024.scss */
+  .m-main-paragraph {
+    margin: 0 4rem 2rem 4rem; }
+  /* line 68, scss/mediaqueries/pc/_1024.scss */
+  .m-main-picture-wrap {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 2rem; }
+  /* line 74, scss/mediaqueries/pc/_1024.scss */
+  .m-main-picture-wrap div {
+    display: flex; }
+  /* line 78, scss/mediaqueries/pc/_1024.scss */
+  .m-main-service-composition-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); } }

@@ -1,0 +1,29 @@
+/* copyright mon magnifique CSS */
+
+// import tools
+//  @import "tools/BootstrapSass/bootstrap-grid.scss";
+
+// fichier de base
+@import "base/variables";
+@import "base/base";
+
+// layout simple
+@import "layout/layout";
+
+// layout complex
+@import "layout/header";
+@import "layout/nav";
+@import "layout/footer";
+
+
+// home
+@import "modules/home/banner";
+@import "modules/home/presentation";
+@import "modules/home/main";
+// réalisation
+
+// contact
+
+//media
+@import "mediaqueries/tablette/720";
+@import "mediaqueries/pc/1024";
